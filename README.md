@@ -23,3 +23,8 @@ This way, since no resources are shared, no concurrency problems appear.
   
 
 ### Performance:
+|            	| groups 	| subjects 	| processors 	| time 	|
+|------------	|--------	|----------	|------------	|------	|
+| no clashes 	| 25     	| 1        	| 3          	| 952  	|
+| no clashes 	| 3      	| 3        	| 3          	| 365  	|
+| no clashes 	| 3      	| 4        	| 3          	| 492  	|
