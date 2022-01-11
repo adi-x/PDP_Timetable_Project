@@ -93,7 +93,7 @@ public class Utilities {
                 } catch (InterruptedException | ExecutionException e) {
                     e.printStackTrace();
                 }
-                if (!check(res) || classes.size() != 0) {
+                if (!check(res)) {
                     try {
                         res = search_aux(timetableCloned, clonedClasses, day, hour + 2).get();
                     } catch (InterruptedException | ExecutionException e) {
